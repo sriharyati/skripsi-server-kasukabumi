@@ -1,0 +1,30 @@
+<!-- DataTales Example -->
+<div class="card shadow mb-4 mt-2">
+    <div class="card-header py-3">
+      <a href="/admin/testimonial" class="btn btn-warning">Back</a>
+    </div>
+    <div class="card-body">
+      <div class="row">
+        <div class="col-md-4">
+          <img src="http://localhost:3000/<%= testimonial.photoTestimonial %>" alt="image"
+            style="width: 100%; display: block;">
+        </div>
+        <div class="col-md-8">
+          <div class="table-responsive">
+            <table class="table table-bordered" id="dataTableActivity" width="100%" cellspacing="0">
+              <thead>
+                <tr>
+                  <th>Konten</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td> <%= testimonial.content %> </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
